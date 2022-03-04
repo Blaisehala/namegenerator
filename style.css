@@ -19,7 +19,7 @@ button {
 }
 
 .container:hover{
-  background-color: rgb(68, 68, 68);
+  background-color: rgb(240, 247, 242);
   background-blend-mode: multiply;
 }
 
