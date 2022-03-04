@@ -42,3 +42,15 @@
 h1{
   font-size: 100px;
 }
+
+.para{
+  width: 50vw;
+  /* background-color: aquamarine; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
