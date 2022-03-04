@@ -25,20 +25,16 @@ button {
 
 
 
-/* .text {
-  position: absolute;
-  top: 0;
-  left: 0;
+.text {
+  
   background: rgba(2, 6, 8, 0.973);
   height: 30%;
   width: 100%;
   color: white;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 150px;
-  font-weight: 1000;
-  mix-blend-mode:multiply;
-  text-align: left;
-} */
 
+  
+} 
