@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.container1{
+  height: 100vh;
+  width: 100vw;
+  background-image: url(./images/pexels-asiama-junior-6567674.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.bus{
+  background-color: rgb(46, 224, 126);
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 50vw;
+  gap: 50px;
+  opacity
+ 
+}
+
