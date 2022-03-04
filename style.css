@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-button {
-  background-color: #89CFF0;
-  color: white;
-}
 
 .container {
 
@@ -16,10 +12,14 @@ button {
   background-image:url(./images/pexels-asiama-junior-6567674.jpg) ;
   background-size: cover;
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .container:hover{
-  background-color: rgb(240, 247, 242);
+  background-color: rgb(140, 141, 141);
   background-blend-mode: multiply;
 }
 
@@ -27,7 +27,7 @@ button {
 
 .text {
   
-  background: rgba(2, 6, 8, 0.973);
+  /* background: rgba(2, 6, 8, 0.973); */
   height: 30%;
   width: 100%;
   color: white;
@@ -38,3 +38,7 @@ button {
 
   
 } 
+
+h1{
+  font-size: 100px;
+}
