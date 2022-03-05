@@ -23,6 +23,7 @@ body {
   background-image: url(./images/pexels-asiama-junior-6567674.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  /* background-color: whitesmoke; */
   
   flex-direction: column;
   display: flex;
@@ -33,12 +34,15 @@ body {
 
 
 .bus{
-  background-color: rgb(46, 224, 126);
-  flex-direction: column;
+  color: white;
+  /* background-image:linear-gradient(to right, #19866f 10%, #FFCF00 49%, #FC4F4F 80%, #19866f 100%);; */
+  flex-direction: row;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around;
+  align-items:center;
   height: 50vh;
-  width: 50vw;
+  width: 70vw;
   gap: 50px;
+  opacity: 0.8;
+  background-color: black;
 }
