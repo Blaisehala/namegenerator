@@ -41,7 +41,7 @@ body {
   display: flex;
   justify-content:center;
   align-items:center;
-  height: 50vh;
+  height: 30vh;
   width: 70vw;
   opacity: 0.8;
   background-color: black;
@@ -54,3 +54,9 @@ margin:40px;
 select{
   margin: 40px;
 }
+
+#results-container{
+  color: #fbfbfb;
+  font-size: 60px;
+}
+ 

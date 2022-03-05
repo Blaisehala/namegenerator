@@ -9,6 +9,8 @@ let Days = ['Sunday','Monday', 'Tuesday', 'Wednesday','Thursday','Friday','Satur
 
 
 let form = document.getElementById('sbb');
+
+
 form.addEventListener('click', function(event){
 
 event.preventDefault();
@@ -20,12 +22,34 @@ calling();
 
 function calling() {
 
+
+  
+
+
+  if (datedate.value == "") {
+    alert("Date must be filled out");
+    return false;
+  }
+
+
   let dateOfBirth = document.getElementById('datedate').value;
+  
+  let birthDay = new Date(dateOfBirth);
+  let day = birthDay.getDay();
 
+  
   var z = document.getElementById('para');
-  z.innerHTML = "your Akan Name is" + " " + dateOfBirth ;
+  // z.innerText = "Your Akan Name is" +  ;
 
-  console.log(dateOfBirth);
+  let gender = document.getElementsByName('gender');
+
+ for(let i of gender){
+  if (i.value === 'Male') {
+    z.innerText= (`Your Akan Name is ${maleNames[day]}`);
+  } else {
+    z.innerText= (`Your Akan Name is ${femaleNames[day]}`);
+  }
+}
 
 
 };
