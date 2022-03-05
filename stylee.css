@@ -23,7 +23,7 @@ body {
   background-image: url(./images/pexels-asiama-junior-6567674.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  /* background-color: whitesmoke; */
+  background-color: black;
   
   flex-direction: column;
   display: flex;
@@ -42,9 +42,10 @@ body {
   justify-content:center;
   align-items:center;
   height: 30vh;
-  width: 70vw;
+  width: 50vw;
   opacity: 0.8;
-  background-color: black;
+  background-color:black;
+
 }
 
 input{
