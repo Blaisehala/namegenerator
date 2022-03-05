@@ -29,6 +29,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 
@@ -36,13 +37,20 @@ body {
 .bus{
   color: white;
   /* background-image:linear-gradient(to right, #19866f 10%, #FFCF00 49%, #FC4F4F 80%, #19866f 100%);; */
-  flex-direction: row;
+  /* flex-direction: row; */
   display: flex;
-  justify-content: space-around;
+  justify-content:center;
   align-items:center;
   height: 50vh;
   width: 70vw;
-  gap: 50px;
   opacity: 0.8;
   background-color: black;
+}
+
+input{
+margin:40px;
+}
+
+select{
+  margin: 40px;
 }
