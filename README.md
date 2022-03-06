@@ -41,7 +41,7 @@ Installation Process
 [Go Back to the top](#name-generator)
 
 ## Site Screenshot
-![site-screenshot](/images/Screenshot from 2022-03-06 20-29-57.png) 
+![site-screenshot](./images/Screenshot from 2022-03-06 20-29-57.png) 
 
 
 ## Behavior Driven Development
@@ -60,11 +60,11 @@ When gender selected is female Then Akan name generated is for female users. And
 here is the link to the site
 
 ## Technology used
-HTML - which was used to build the structure of the pages.
+HTML - used to build the structure of the pages.
 
-CSS - which was used to style the pages incuding the left aside navigation bar
+CSS - Used  styling of the webpages
 
-JavaScript - which was used to add some functionality
+JavaScript - Used for addition of functionality 
 
 ## Reference
 Materialize CSS
@@ -74,7 +74,7 @@ Materialize CSS
 
 MIT License
 
-Copyright (c) [2021] [Venesa Atieno]
+Copyright (c) [2021] [Blaise Hala Odhiambo]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, but not to sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -82,7 +82,7 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-Go Back to the top
+[Go Back to the top](#name-generator)
 
 ## Authors Info 
 I am self-driven and passionate about Software development and all types of art, especially camera works. I take each day as a learning opportunity and seek to develop new skills .
