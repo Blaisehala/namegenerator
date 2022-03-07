@@ -9,27 +9,26 @@
 
   width: 100vw;
   height: 100vh;
-  background-image:url(./images/pexels-asiama-junior-6567674.jpg) ;
+  background-image: url(./images/pexels-asiama-junior-6567674.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.container-fluid:hover{
-  background-color: rgb(56, 56, 56);
+  background-color: rgb(110, 110, 110);
   background-blend-mode: multiply;
 }
 
-img{
+
+
+img {
   height: 200px;
   width: 150px;
 }
 
 .text {
-  
+
   /* background: rgba(2, 6, 8, 0.973); */
   height: 30%;
   width: 100%;
@@ -39,14 +38,14 @@ img{
   justify-content: center;
   align-items: center;
 
-  
-} 
 
-h1{
+}
+
+h1 {
   font-size: 100px;
 }
 
-.para{
+.para {
   width: 50vw;
   /* background-color: aquamarine; */
   display: flex;
@@ -55,47 +54,158 @@ h1{
   align-items: center;
   text-align: center;
   font-size: 1.5rem;
-  font-weight: 500;
+  /* font-weight: 500; */
 
   font-family: 'Lobster', cursive;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Rowdies', cursive;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Rowdies', cursive;
 }
 
 
-button{
+button {
   width: 300px;
   height: 50px;
   background-color: #343A40;
   /* border-radius: 4px;   */
   color: #fff;
-  cursor:pointer;
+  cursor: pointer;
   /* padding: 8px 16px; */
 }
 
 
-.button1{
+.button1 {
   background-color: transparent;
-  border-style: 10px groove  ;
+  border-style: 10px groove;
   /* border: 5px white; */
-} 
+}
 
 
-.button2{
+.button2 {
   background-color: #343A40;
   opacity: 4px;
+  margin-left:50px;
 
 }
 
-.button2:hover{
+.button2:hover {
   background-image: linear-gradient(to right, #19866f 10%, #FFCF00 49%, #FC4F4F 80%, #19866f 100%);
-   animation:slidebg 5s linear infinite;
-font-size: 25px;
+  animation: slidebg 5s linear infinite;
+  font-size: 25px;
 }
 
-span{
+.button1:hover{
+  background-color:white;
+  color: black;
+  font-size:25px ;
+}
+
+span {
   background-image: linear-gradient(to right, #19866f 10%, #FFCF00 49%, #FC4F4F 80%, #19866f 100%);
   font-size: 30px;
   border-radius: 50%;
+
+}
+
+
+
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 600px) {
+
+
+  
+  .container-fluid {
+
+    background-blend-mode: multiply;
+    background-image: url(./images/pexels-asiama-junior-6567674.jpg);
+
+    background-repeat: no-repeat;
+
+    /* font-family: 'Lobster', cursive; */
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Open Sans', sans-serif; */
+/* font-family: 'Rowdies', cursive; */
+  }
+
+  .para {
+    /* background-color: #19866f; */
+    height: 1050px;
+    width: 100%;
+    /* color: rgb(102, 37, 37); */
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+
+
+  }
+
+  .text {
+    margin-top: 50px;
+  }
+
+
+
+  span {
+    color: yellow;
+    background-image: none;
+  }
+
+
+  h1 {
+    font-size: 20px;
+    font-weight: 1000;
+    padding-top: 20px;
+  }
+
+
+  button {
+    width: 120px;
+    height: 50px;
+    background-color: #343A40;
+    /* border-radius: 4px;   */
+    color: blue;
+    cursor: pointer;
+    /* padding: 8px 16px; */
+    margin-top: 30px;
+    border-radius: 10px;
+
+  }
+
+
+
+  .but {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 70px; */
+    /* padding:20px; */
+  }
+
+  .button1 {
+    background-color: aliceblue;
+   
+  }
+
+  .button1:hover{
+    font-size:15px ;
+  }
+
+  .button2 {
+    color: aliceblue;
+    font-size: 15px;
+    background-image: linear-gradient(to right, #19866f 10%, #FFCF00 49%, #FC4F4F 80%, #19866f 100%);
+  }
+
+  .button2:hover {
+    font-size: 15px;
+    background-image: linear-gradient(to right, #19866f 10%, #FFCF00 49%, #FC4F4F 80%, #19866f 100%);
+  }
+
+}
+
+
 
 }
